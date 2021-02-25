@@ -1,0 +1,112 @@
+html {
+  background-color:#fc03b1;
+  background-image: url(../images/Teddy.png);
+}
+
+header{
+  color:red;
+  text-align:center;
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family:Brush Script MT;
+}
+
+body p{
+  font-family:Brush Script MT;
+  background-color:#fadd8e;
+  padding: 5px 5px;
+  margin-left:500px;
+  margin-top:-75px;
+  font-size:30px;
+  position: relative;
+  text-align: center;
+  top:-600px;
+  width:37%;
+  padding-left:0px;
+  border-style: solid;
+  border-color: black;
+}
+
+@-webkit-keyframes fadeBounce {
+  0% {
+    opacity: 0;
+    transform: translateY(-200%);
+  }
+
+  40% {
+    transform: translateY(0);
+  }
+
+  55% {
+    transform: translateY(-6px);
+  }
+
+  70% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  85% {
+    transform: translateY(-3px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeBounce {
+  0% {
+    opacity: 0;
+    transform: translateY(-200%);
+  }
+
+  40% {
+    transform: translateY(0);
+  }
+
+  55% {
+    transform: translateY(-6px);
+  }
+
+  70% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  85% {
+    transform: translateY(-3px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* End Bounce Animation */
+
+.container {
+  opacity: 0;
+  animation: fadeBounce 2.5s forwards;
+  -webkit-animation: fadeBounce 2.5s forwards;
+  padding: 0px 20px 0px 20px;
+  margin-bottom: 30px;
+  box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .paragraphs{
+  margin-top:750px;
+  margin-right:50px;
+  margin-left:-455px;
+}
+
+  header{
+
+}
+}
+
