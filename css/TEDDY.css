@@ -6,7 +6,7 @@ html {
 header{
   color:red;
   text-align:center;
-  font-size: 25px;
+  font-size: 16px;
   background-color: rgba(0, 0, 0, 0.7);
   font-family:Brush Script MT;
 }
@@ -100,12 +100,17 @@ body p{
 
 @media screen and (max-width: 700px) {
   .paragraphs{
-  margin-top:750px;
-  margin-right:50px;
+  margin-top:700px;
+  margin-right:-50px;
   margin-left:-455px;
 }
 
-  .pic{
-   height:100px;
+  .picture{
+   height:50px;
     width:100px;
   }
+
+  .song{
+  margin-top:500px;
+  margin-left:50px;
+}
